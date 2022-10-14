@@ -7,7 +7,7 @@ export default function Main() {
     <>
       <div className="main" style={{ backgroundColor: `rgb(${red}, ${green}, ${blue})` }}>
         <div className="rgb">
-                    rgb({red}/{green}/{blue})
+          rgb({red}, {green}, {blue})
         </div>
       </div>
     </>

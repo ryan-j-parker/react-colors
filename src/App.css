@@ -61,15 +61,15 @@
 }
 
 .rgb {
-    background-color: white;
-      color: black;
-      padding: 0 5px 10px 5px;
-      border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding: 0 5px 10px 5px;
+  border-radius: 20px;
 }
 
 .active {
   text-decoration: none;
-
+  border: 4px solid white;
 }
 
 .color:hover {
