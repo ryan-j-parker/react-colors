@@ -48,16 +48,16 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: __dirname + '/src/index.html',
-    }),
-    new webpack.ProvidePlugin({
-      React: 'react',
-    }),
     new CopyPlugin({
       patterns: [
         { from: 'public', to: '.', }
       ],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+    new webpack.ProvidePlugin({
+      React: 'react',
     }),
   ],
 };
