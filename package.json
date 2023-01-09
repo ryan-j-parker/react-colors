@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "keywords": [],
   "author": "Ryan J. Parker <ryan.jos.parker@gmail.com> (https://ryanparker.io)",
