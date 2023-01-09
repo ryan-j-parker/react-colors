@@ -12,19 +12,19 @@
   "author": "Ryan J. Parker <ryan.jos.parker@gmail.com> (https://ryanparker.io)",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.5.0",
     "@babel/core": "7.20.12",
     "@babel/preset-env": "7.20.2",
     "@babel/preset-react": "7.18.6",
     "babel-loader": "9.1.2",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "6.7.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "html-webpack-plugin": "5.5.0",
+    "prettier": "^2.5.0",
     "style-loader": "3.3.1",
     "url-loader": "4.1.1",
     "webpack": "5.75.0",
@@ -32,6 +32,7 @@
     "webpack-dev-server": "4.11.1"
   },
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^6.6.2"
